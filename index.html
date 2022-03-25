@@ -14,38 +14,41 @@
     <p>Welcome to the world of programming! Below is a survey to find out which programming language is best suited for you!</p>
     <br>
     <form id="formOne">
-      <p>q1:</p>
-      <select class="form-control" id="">
-        <option></option>
-        <option></option>
-        <option></option>
+      <label>My favorite subject in school was:</label>
+      <select class="form-control" id="question1">
+        <option value="0">Math</option>
+        <option value="1">Art</option>
+        <option value="2">History</option>
       </select>
-      <p>q2:</p>
-      <select class="form-control" id="">
-        <option></option>
-        <option></option>
-        <option></option>
+      <label>In my free time I enjoy:</label>
+      <select class="form-control" id="question2">
+        <option value="0">Hiking</option>
+        <option value="1">Painting</option>
+        <option value="2">Reading</option>
       </select>
-      <p>q3:</p>
-      <select class="form-control" id="">
-        <option></option>
-        <option></option>
-        <option></option>
+      <label>If I were an animal I would be:</label>
+      <select class="form-control" id="question3">
+        <option value="0">Dog</option>
+        <option value="1">Fish</option>
+        <option value="2">Cat</option>
       </select>
-      <p>q4:</p>
-      <select class="form-control" id="">
-        <option></option>
-        <option></option>
-        <option></option>
+      <label>My favorite color is:</label>
+      <select class="form-control" id="question4">
+        <option value="0">Red</option>
+        <option value="1">Yellow</option>
+        <option value="2">Blue</option>
       </select>
-      <p>q5:</p>
-      <select class="form-control" id="">
-        <option></option>
-        <option></option>
-        <option></option>
+      <label>My favorite genre of movies is:</label>
+      <select class="form-control" id="question5">
+        <option value="0">Action</option>
+        <option value="1">Comedy</option>
+        <option value="2">Horror</option>
       </select>
       <button type="submit">Submit!</button>
     </form>
+    <div id="surveyResult">
+    <p>Based on your anwsers<span id="result"></span> is the programming language best suited for you!</p>
+    </div>
   </div>
   
 </body>
