@@ -41,7 +41,10 @@ A site in which the user fills out a form and is given results based on what opt
 ### Link to project on GitHub
 [https://github.com/DyPeterson/language-suggester](https://github.com/DyPeterson/language-suggester)
 ### Details
-This project was made for a independent code review at [Epicodus](https://www.epicodus.com/). It's intention is to show what I have learned in the past week and to demonstrate it to an instructor. It contains the following 
+This project was made for a independent code review at [Epicodus](https://www.epicodus.com/). It's intention is to show what I have learned in the past week and to demonstrate it to an instructor.
+
+### Known Bugs
+At this time there is no known bugs.
 
 ### Copyright 2022 Dylan Peterson
 
