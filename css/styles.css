@@ -18,6 +18,10 @@ img {
   float: left;
   margin: 30px;
 }
+option {
+  color: white;
+  background-color: black;
+}
 .noselection {
   color: gray;
   font-style: italic;
@@ -26,6 +30,9 @@ img {
   background-color: rgba(255, 255, 255, 0.692);
   margin: 50px;
   padding: 30px;
+}
+.form-control{
+width: 700px;
 }
 #ruby {
   display: none;
@@ -38,4 +45,5 @@ img {
 }
 #intro {
  display: none;
+ text-align: center;
 }

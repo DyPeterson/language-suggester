@@ -27,7 +27,7 @@ A site in which the user fills out a form and is given results based on what opt
 
 ### Setup & Installation:
  1. Through the terminal like [GitBash](https://git-scm.com/downloads)
-	 1.  Open the terminal
+	 1.  Open the terminal and navigate to where you would like the new project to be using `cd` commands. Its also recommended that you make a new directory using `mkdir *directory-name*`.
 	 2.  Clone the repository using the command `git clone https://github.com/DyPeterson/language-suggester.git`
 	 3.  After cloning the directory it will appear in the directory that your terminal is set to. So make sure you are in the directory that you want this project copied to.
 	 4. Once this project is cloned you can navigate to that folder within your file explorer and double-click `index.html` to launch the webpage within your browser.
