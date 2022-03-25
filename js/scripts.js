@@ -10,14 +10,18 @@ $(document).ready(function() {
 
     if (result <= 3) {
       $("#ruby").show();
+      $("#javascript").hide();
+      $("#python").hide();
     }
     else if (result > 3 && result < 8) {
       $("#javascript").show();
       $("#ruby").hide();
+      $("#python").hide();
     }
     else if (result >= 8) {
       $("#python").show();
       $("#javascript").hide();
+      $("#ruby").hide();
     }
     else {
       prompt("Please fill out all the answers!")
