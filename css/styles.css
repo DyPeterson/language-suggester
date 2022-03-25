@@ -12,6 +12,12 @@ label {
   font-weight: bold;
   margin: 10px;
 }
+img {
+  max-height: 150px;
+  width: auto;
+  float: left;
+  margin: 30px;
+}
 .noselection {
   color: gray;
   font-style: italic;
@@ -20,12 +26,6 @@ label {
   background-color: rgba(255, 255, 255, 0.692);
   margin: 50px;
   padding: 30px;
-}
-img {
-  max-height: 150px;
-  width: auto;
-  float: left;
-  margin: 30px;
 }
 #ruby {
   display: none;
