@@ -9,19 +9,19 @@ $(document).ready(function() {
     const result = resultOne + resultTwo + resultThree + resultFour + resultFive;
 
     if (result <= 3) {
-      $("#intro").show();
+      $("#intro").show(600);
       $("#ruby").show(1200);
       $("#javascript").hide();
       $("#python").hide();
     }
     else if (result > 3 && result < 8) {
-      $("#intro").show();
+      $("#intro").show(600);
       $("#javascript").show(1200);
       $("#ruby").hide();
       $("#python").hide();
     }
     else if (result >= 8) {
-      $("#intro").show();
+      $("#intro").show(600);
       $("#python").show(1200);
       $("#javascript").hide();
       $("#ruby").hide();
