@@ -16,51 +16,61 @@
       <form id="formOne">
         <label>My favorite subject in school was:</label>
         <select class="form-control" id="question1">
+          <option class="noselection">Please select an answer</option>
           <option value="0">Math</option>
           <option value="1">Art</option>
           <option value="2">History</option>
+          <option value="-1">Physical Education</option>
         </select>
         <label>In my free time I enjoy:</label>
         <select class="form-control" id="question2">
+          <option class="noselection">Please select an answer</option>
           <option value="0">Hiking</option>
           <option value="1">Painting</option>
           <option value="2">Reading</option>
+          <option value="3">Programming</option>
         </select>
         <label>If I were an animal I would be:</label>
         <select class="form-control" id="question3">
+          <option class="noselection">Please select an answer</option>
           <option value="0">Dog</option>
           <option value="1">Fish</option>
           <option value="2">Cat</option>
+          <option value="1">Aligator</option>
         </select>
         <label>My favorite color is:</label>
         <select class="form-control" id="question4">
+          <option class="noselection">Please select an answer</option>
           <option value="0">Red</option>
           <option value="1">Yellow</option>
           <option value="2">Blue</option>
+          <option value="1">Green</option>
         </select>
         <label>My favorite genre of movies is:</label>
         <select class="form-control" id="question5">
+          <option class="noselection">Please select an answer</option>
           <option value="0">Action</option>
           <option value="1">Comedy</option>
           <option value="2">Horror</option>
+          <option value="1">Drama</option>
         </select>
         <button type="submit" class="btn btn-primary">Submit!</button>
       </form>
-      <p>Based on your anwsers, the programming language best suited for you is:</p>
+      <p id="intro">Based on your anwsers you have selected, the programming language that is best suited for your personality type is:</p>
       <div id="ruby">
         <img src="img/ruby.png" alt="Ruby Logo">
         <h3>Ruby</h3>
-        <p>Ruby is A dynamic, open source programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write.</p>
+        <p>Ruby is a dynamic, open source programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write. Great Ruby developers can use Ruby to build anything from the back-side of a web application to command line utilities on your computer. The language is dynamic, reflective, and object oriented. These are all familiar properties found in many general purpose programming languages, but can still require experience for a developer to be able to harness their true power.</p>
       </div>
       <div id="javascript">
         <img src="img/javascript.png" alt="Javascript logo">
         <h3>Javascript</h3>
-        <p>JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else.</p>
+        <p>JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else.A JavaScript developer is responsible for implementing the front-end logic that defines the behavior of the visual elements of a web application. A JavaScript developer is also responsible for connecting this with the services that reside on the back-end. They are usually supported by back-end web developers, who are responsible for server-side application logic. JavaScript developers often work alongside other front-end web developers who specialize in markup and styling.</p>
       </div>
       <div id="python">
         <img src="img/python.png" alt="Python logo">
         <h3>Python</h3>
-        <p>Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small- and large-scale projects.</p>
+        <p>Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small- and large-scale projects. A Python Developer is responsible for coding, designing, deploying, and debugging development projects, typically on the server-side (or back-end). They may, however, also help organizations with their technological framework.</p>
       </div>
     </div>
   </div>

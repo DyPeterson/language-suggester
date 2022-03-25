@@ -8,11 +8,15 @@ h3 {
 button {
   margin: 10px;
 }
-label{
+label {
   font-weight: bold;
   margin: 10px;
 }
-.background{
+.noselection {
+  color: gray;
+  font-style: italic;
+}
+.background {
   background-color: rgba(255, 255, 255, 0.692);
   margin: 50px;
   padding: 30px;
@@ -21,6 +25,7 @@ img {
   max-height: 150px;
   width: auto;
   float: left;
+  margin: 30px;
 }
 #ruby {
   display: none;
@@ -30,4 +35,7 @@ img {
 }
 #python {
   display: none;
+}
+#intro {
+ display: none;
 }

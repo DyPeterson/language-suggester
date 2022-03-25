@@ -1,30 +1,33 @@
 $(document).ready(function() {
   $("form").submit(function(event){
     event.preventDefault();
-    const result1 = parseInt($("#question1").val());
-    const result2 = parseInt($("#question2").val());
-    const result3 = parseInt($("#question3").val());
-    const result4 = parseInt($("#question4").val());
-    const result5 = parseInt($("#question5").val());
-    const result = result1 + result2 + result3 + result4 + result5;
+    const resultOne = parseInt($("#question1").val());
+    const resultTwo = parseInt($("#question2").val());
+    const resultThree = parseInt($("#question3").val());
+    const resultFour = parseInt($("#question4").val());
+    const resultFive = parseInt($("#question5").val());
+    const result = resultOne + resultTwo + resultThree + resultFour + resultFive;
 
     if (result <= 3) {
-      $("#ruby").show();
+      $("#intro").show();
+      $("#ruby").show(1200);
       $("#javascript").hide();
       $("#python").hide();
     }
     else if (result > 3 && result < 8) {
-      $("#javascript").show();
+      $("#intro").show();
+      $("#javascript").show(1200);
       $("#ruby").hide();
       $("#python").hide();
     }
     else if (result >= 8) {
-      $("#python").show();
+      $("#intro").show();
+      $("#python").show(1200);
       $("#javascript").hide();
       $("#ruby").hide();
     }
     else {
-      prompt("Please fill out all the answers!")
+      alert("Please fill out all the answers!")
     }
   });
 });
