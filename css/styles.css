@@ -5,6 +5,11 @@ body {
 h3 {
   text-align: center;
 }
+h2 {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 100px;
+}
 button {
   margin: 10px;
 }
