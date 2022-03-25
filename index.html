@@ -9,57 +9,60 @@
   <title>Programming Language Suggester</title>
 </head>
 <body>
-  <div class="container">
-    <h3>Programming Languages</h3>
-    <p>Welcome to the world of programming! Below is a survey to find out which programming language is best suited for you!</p>
-    <br>
-    <form id="formOne">
-      <label>My favorite subject in school was:</label>
-      <select class="form-control" id="question1">
-        <option value="0">Math</option>
-        <option value="1">Art</option>
-        <option value="2">History</option>
-      </select>
-      <label>In my free time I enjoy:</label>
-      <select class="form-control" id="question2">
-        <option value="0">Hiking</option>
-        <option value="1">Painting</option>
-        <option value="2">Reading</option>
-      </select>
-      <label>If I were an animal I would be:</label>
-      <select class="form-control" id="question3">
-        <option value="0">Dog</option>
-        <option value="1">Fish</option>
-        <option value="2">Cat</option>
-      </select>
-      <label>My favorite color is:</label>
-      <select class="form-control" id="question4">
-        <option value="0">Red</option>
-        <option value="1">Yellow</option>
-        <option value="2">Blue</option>
-      </select>
-      <label>My favorite genre of movies is:</label>
-      <select class="form-control" id="question5">
-        <option value="0">Action</option>
-        <option value="1">Comedy</option>
-        <option value="2">Horror</option>
-      </select>
-      <button type="submit">Submit!</button>
-    </form>
-    <p>Based on your anwsers, the programming language best suited for you is:</p>
-    <div id="ruby">
-      <img src="img/ruby.png" alt="Ruby Logo">
-      <p>Ruby!</p>
-    </div>
-    <div id="javascript">
-      <img src="img/javascript.png" alt="Javascript logo">
-      <p>Javascript!</p>
-    </div>
-    <div id="python">
-      <img src="img/python.png" alt="Python logo">
-      <p>Python!</p>
+  <div class="background">
+    <div class="container">
+      <h2>Programming Languages Survey</h2>
+      <p>Welcome to the world of programming! Below is a survey to find out which programming language is best suited for you! Please take your time and answer each question carefully and then press the submit button below.</p>
+      <form id="formOne">
+        <label>My favorite subject in school was:</label>
+        <select class="form-control" id="question1">
+          <option value="0">Math</option>
+          <option value="1">Art</option>
+          <option value="2">History</option>
+        </select>
+        <label>In my free time I enjoy:</label>
+        <select class="form-control" id="question2">
+          <option value="0">Hiking</option>
+          <option value="1">Painting</option>
+          <option value="2">Reading</option>
+        </select>
+        <label>If I were an animal I would be:</label>
+        <select class="form-control" id="question3">
+          <option value="0">Dog</option>
+          <option value="1">Fish</option>
+          <option value="2">Cat</option>
+        </select>
+        <label>My favorite color is:</label>
+        <select class="form-control" id="question4">
+          <option value="0">Red</option>
+          <option value="1">Yellow</option>
+          <option value="2">Blue</option>
+        </select>
+        <label>My favorite genre of movies is:</label>
+        <select class="form-control" id="question5">
+          <option value="0">Action</option>
+          <option value="1">Comedy</option>
+          <option value="2">Horror</option>
+        </select>
+        <button type="submit" class="btn btn-primary">Submit!</button>
+      </form>
+      <p>Based on your anwsers, the programming language best suited for you is:</p>
+      <div id="ruby">
+        <img src="img/ruby.png" alt="Ruby Logo">
+        <h3>Ruby</h3>
+        <p>Ruby is A dynamic, open source programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write.</p>
+      </div>
+      <div id="javascript">
+        <img src="img/javascript.png" alt="Javascript logo">
+        <h3>Javascript</h3>
+        <p>JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else.</p>
+      </div>
+      <div id="python">
+        <img src="img/python.png" alt="Python logo">
+        <h3>Python</h3>
+        <p>Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small- and large-scale projects.</p>
+      </div>
     </div>
   </div>
-  
 </body>
 </html>
